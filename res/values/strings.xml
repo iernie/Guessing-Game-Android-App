@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guessing Game</string>
+    <string name="preferences">Preferences</string>
+    <string name="help">Help</string>
+    <string name="intro">Enter the number you think it is</string>
+    <string name="submit">Try number</string>
+    <string name="highscore">High Score</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back to home screen</string>
+    <string name="play">Start game</string>
+    <string name="endgame">End game</string>
+    <string name="exit">Exit</string>
+    <string name="helpText">Guessing Game is an easy game where you have to guess the correct number. There are two modes; Time and Tries\n\nTime more gives you 1 minute to come to an as high level as possible. For each level up, the range for the random number is increased by 10 times.\n\nTries mode gives you a number in a range according the the chosen difficulty:\nEasy 0-10\nNoraml 0-100\nHard 0-1000\nHarder 0-10000\nInsane 0-100000\nThe goal is to find the number in as few tries as possible\n\nHave fun!\n\nMade by Kwarkbit (kwarkbit.com)\n(c) 2011</string>
+</resources>

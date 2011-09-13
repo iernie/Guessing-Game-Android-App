@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<PreferenceCategory
+  		android:title="Game Settings">
+                
+    	<ListPreference
+    		android:key="mode"
+    		android:title="Game Mode"
+    		android:summary="Time or Tries mode"
+    		android:entryValues="@array/gameModeValues"
+    		android:entries="@array/gameMode"
+    		android:defaultValue="1"
+    		/>
+    	<ListPreference
+    		android:key="difficulty"
+    		android:title="Choose difficulty"
+    		android:summary="Only works in Tries mode"
+    		android:entryValues="@array/difficultyValues"
+    		android:entries="@array/difficulty"
+    		android:defaultValue="2"
+    		/>
+    	<ListPreference
+    		android:key="time"
+    		android:title="Choose time frame"
+    		android:summary="Only works in Time mode"
+    		android:entryValues="@array/timeValues"
+    		android:entries="@array/time"
+    		android:defaultValue="60000"
+    		/>
+  	</PreferenceCategory>
+</PreferenceScreen>
